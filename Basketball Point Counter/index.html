@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <div class="score-board">
+
+            <div class="team">
+                <h1 class="main-tag">HOME</h1>
+                <h2 class="score" id="home-score">0</h2>
+
+                <div class="button-group">
+                    <button class="button" id="home-plus1" onclick="plus1('home-plus1')">+1</button>
+                    <button class="button" id="home-plus2" onclick="plus2('home-plus2')">+2</button>
+                    <button class="button" id="home-plus3" onclick="plus3('home-plus3')">+3</button>                    
+                </div>
+            </div>
+
+            <div class="reset-div">
+                <button class="btn">RESET</button>
+            </div>
+               
+   
+
+            <div class="team">
+                <h1 class="main-tag">GUEST</h1>
+                <h2 class="score" id="guest-score">0</h2>
+
+                <div class="button-group">
+                    <button class="button" id="guest-plus1" onclick="plus1('guest-plus1')">+1</button>
+                    <button class="button" id="guest-plus2" onclick="plus2('guest-plus2')">+2</button>
+                    <button class="button" id="guest-plus3" onclick="plus3('guest-plus3')">+3</button>                    
+                </div>
+
+            </div>
+
+       </div>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
